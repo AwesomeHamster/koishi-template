@@ -7,7 +7,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: ${{ false }}  # disable this workflow by default, remove this line only if you're ready to publish your package!
+    if: ${{ false }} # disable this workflow by default, remove this line only if you're ready to publish your package!
     steps:
       - uses: actions/checkout@v3
       - uses: AwesomeHamster/actions-publish@master
